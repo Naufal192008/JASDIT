@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jasa Edit Video Pendek untuk Usaha Kecil</title>
+<style>
+:root{--bg:#fafaf7;--card:#fff;--text:#1a1a1a;--muted:#5f5f5f;--accent:#e8412c;--soft:#fdece9;--line:#e6e4de;--ok:#1f9d55;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141414;--card:#1e1e1e;--text:#f1f1ee;--muted:#a5a5a0;--line:#333;--accent:#ff6a55;--soft:#2a1b19}}
+:root[data-theme="dark"]{--bg:#141414;--card:#1e1e1e;--text:#f1f1ee;--muted:#a5a5a0;--line:#333;--accent:#ff6a55;--soft:#2a1b19}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:68px;height:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6;min-height:100%}
+.wrap{max-width:980px;margin:0 auto;padding:0 18px}
+header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+.logo{font-weight:800;letter-spacing:-.02em}
+nav{display:flex;gap:16px;font-size:.92rem;align-items:center}
+nav a{color:var(--muted);text-decoration:none}
+nav a.cta{background:var(--accent);color:#fff;padding:6px 14px;border-radius:8px;font-weight:600}
+@media(max-width:600px){nav a.hide{display:none}}
+section{padding:52px 0 0}
+h1{font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.1;margin:0 0 14px;letter-spacing:-.03em}
+h2{font-size:clamp(1.35rem,3.5vw,1.8rem);margin:0 0 6px;letter-spacing:-.02em}
+h3{margin:0 0 6px;font-size:1.05rem}
+.sub{color:var(--muted);margin:0 0 22px}
+p{margin:0 0 12px;color:var(--muted)}
+.eyebrow{font-weight:700;color:var(--accent);font-size:.8rem;letter-spacing:.1em}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:10px;border:0;font-size:1rem;cursor:pointer;font-family:inherit;text-align:center}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+.btn.block{display:block;width:100%}
+.btn.sm{padding:7px 14px;font-size:.88rem}
+.row{display:flex;flex-wrap:wrap;gap:10px}
+.hero{display:grid;gap:30px;grid-template-columns:1.25fr 1fr;align-items:center;padding-top:40px}
+@media(max-width:780px){.hero{grid-template-columns:1fr}}
+.phone{aspect-ratio:9/16;max-width:230px;margin:0 auto;width:100%;border-radius:28px;border:6px solid var(--text);background:linear-gradient(160deg,var(--accent),#6e1a10);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;text-align:center;padding:16px;font-size:1.1rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.chip{background:var(--soft);color:var(--accent);font-size:.8rem;font-weight:600;padding:4px 12px;border-radius:99px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.grid.p{grid-template-columns:repeat(auto-fit,minmax(215px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.card.pop{border-color:var(--accent);box-shadow:0 0 0 3px var(--soft)}
+.pc{display:flex;flex-direction:column}
+.pc ul{margin:10px 0 16px;padding-left:18px;color:var(--muted);font-size:.92rem;flex:1}
+.pc .btn{margin-top:auto}
+.badge{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:2px 10px;border-radius:99px;margin-bottom:8px;align-self:flex-start}
+.badge.ok{background:var(--ok)}
+.price{font-size:1.7rem;font-weight:800;letter-spacing:-.02em}
+.price small{font-size:.85rem;font-weight:500;color:var(--muted)}
+.num{width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:10px}
+.work{aspect-ratio:9/16;border-radius:16px;border:2px dashed var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--muted);padding:12px;font-size:.9rem;text-decoration:none;gap:6px}
+.work.filled{border:1px solid var(--line);background:var(--card);color:var(--text)}
+.seg{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:16px}
+@media(max-width:560px){.seg{grid-template-columns:repeat(2,1fr)}}
+.seg button{padding:10px 6px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--text);font:inherit;font-weight:600;font-size:.92rem;cursor:pointer;line-height:1.25}
+.seg button small{display:block;font-weight:400;color:var(--muted);font-size:.78rem}
+.seg button.on{border-color:var(--accent);background:var(--soft);color:var(--accent)}
+.seg button.on small{color:var(--accent)}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}
+.fgrid .full{grid-column:1/-1}
+@media(max-width:600px){.fgrid{grid-template-columns:1fr}}
+label{display:block;font-size:.84rem;font-weight:600;margin:14px 0 4px}
+input,select,textarea{width:100%;padding:11px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--text);font:inherit}
+.hint{font-size:.8rem;color:var(--muted);margin:4px 0 0}
+.sum{background:var(--soft);border-radius:14px;padding:14px 16px;margin:6px 0 4px;font-size:.95rem;color:var(--text)}
+.srow{display:flex;justify-content:space-between;gap:12px;padding:2px 0}
+.stot{display:flex;justify-content:space-between;border-top:1px solid var(--line);margin-top:8px;padding-top:8px;font-size:1.2rem;font-weight:800}
+.stime{color:var(--muted);font-size:.85rem;margin-top:6px}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:10px}
+summary{font-weight:600;cursor:pointer}
+details p{margin:8px 0 0}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;background:#25d366;color:#fff;text-decoration:none;font-weight:700;padding:13px 18px;border-radius:99px;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+footer{margin:56px 0 90px;padding-top:20px;border-top:1px solid var(--line);font-size:.85rem;color:var(--muted)}
+.err{color:var(--accent);font-size:.9rem;margin-top:10px;min-height:1.2em}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="logo" id="brand">EditKilat</div>
+<nav><a href="#hasil" class="hide">Hasil</a><a href="#harga" class="hide">Harga</a><a href="#faq" class="hide">FAQ</a><a href="#order" class="cta">Pesan</a></nav>
+</div></header>
+
+<main class="wrap">
+<div class="hero">
+<div>
+<div class="eyebrow">EDITOR VIDEO PENDEK</div>
+<h1>Video promosi rapi untuk usaha kecil, mulai Rp 35 ribu</h1>
+<p>Kirim video mentahan dari HP, aku edit jadi Reels, TikTok, atau Shorts dengan hook, teks, dan musik. Cocok untuk toko, barber, kafe, dan jualan online.</p>
+<div class="row"><a class="btn" href="#harga">Lihat paket</a><a class="btn ghost" data-wa="Halo, saya mau ambil promo video gratis pertama">Coba gratis</a></div>
+<div class="chips"><span class="chip">Video pertama gratis</span><span class="chip">Revisi 2x</span><span class="chip">Bayar setelah hasil jadi</span></div>
+</div>
+<div class="phone">15 detik<br>video promosi<br>siap upload</div>
+</div>
+
+<section id="hasil">
+<h2>Contoh hasil editan</h2>
+<p class="sub">Tap contoh untuk melihat videonya.</p>
+<div class="grid" id="works"></div>
+</section>
+
+<section id="harga">
+<h2>Pilih paket</h2>
+<p class="sub">Tekan Pesan di paket yang kamu mau, formulir langsung terisi.</p>
+<div class="grid p">
+<div class="card pc"><h3>1 Video</h3><div class="price">Rp 35.000</div><ul><li>Selesai 1-2 hari</li><li>Teks dan musik</li><li>Hook di 3 detik awal</li><li>2x revisi</li></ul><button class="btn block" data-pick="p1">Pesan</button></div>
+<div class="card pc pop"><span class="badge">PALING LAKU</span><h3>Paket 4 Video</h3><div class="price">Rp 130.000</div><ul><li>Selesai 3-4 hari</li><li>Rp 32.500 per video, hemat Rp 10.000</li><li>Gratis caption dan hashtag</li><li>2x revisi per video</li></ul><button class="btn block" data-pick="p4">Pesan</button></div>
+<div class="card pc"><h3>Paket 8 Video</h3><div class="price">Rp 250.000</div><ul><li>Selesai sampai 5 hari</li><li>Rp 31.250 per video, hemat Rp 30.000</li><li>Gratis caption dan hashtag</li><li>2x revisi per video</li></ul><button class="btn block" data-pick="p8">Pesan</button></div>
+<div class="card pc"><span class="badge ok">DISKON</span><h3>Custom</h3><div class="price">Rp 30.000 <small>/ video (11+ video)</small></div><ul><li>Jumlah bebas, harga dihitung otomatis</li><li>Diskon untuk lebih dari 10 video</li><li>Jadwal dikonfirmasi lewat WhatsApp</li></ul><button class="btn block" data-pick="custom">Hitung harga</button></div>
+</div>
+<p style="margin-top:14px;font-size:.9rem">Revisi ketiga dan seterusnya Rp 10.000. Ekspres (lebih cepat, sekitar setengah waktu) tambah Rp 10.000 per video, konfirmasi dulu lewat WhatsApp.</p>
+</section>
+
+<section id="kenapa">
+<h2>Kenapa order di sini</h2>
+<p class="sub">Kamu tidak perlu takut rugi.</p>
+<div class="grid">
+<div class="card"><h3>Lihat dulu, bayar kemudian</h3><p style="margin:0">Kamu terima versi watermark untuk dicek. Bayar hanya kalau sudah cocok.</p></div>
+<div class="card"><h3>Revisi gratis 2x</h3><p style="margin:0">Ada yang kurang pas? Diperbaiki sampai sesuai.</p></div>
+<div class="card"><h3>Mulai dari gratis</h3><p style="margin:0">Video pertama 15 detik gratis untuk 5 usaha pertama.</p></div>
+<div class="card"><h3>Ramah usaha kecil</h3><p style="margin:0">Mulai Rp 30.000 per video, jauh lebih murah dari agensi.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Cocok untuk</h2>
+<p class="sub">&nbsp;</p>
+<div class="grid">
+<div class="card"><h3>Barber dan salon</h3><p style="margin:0">Transformasi sebelum dan sesudah.</p></div>
+<div class="card"><h3>Kafe dan makanan</h3><p style="margin:0">Menu baru, proses bikin minuman, promo.</p></div>
+<div class="card"><h3>Jualan online</h3><p style="margin:0">Video produk untuk TikTok dan Instagram.</p></div>
+<div class="card"><h3>Jasa lokal</h3><p style="margin:0">Laundry, bengkel, bimbel, usaha rumahan.</p></div>
+</div>
+</section>
+
+<section id="cara">
+<h2>Cara order</h2>
+<p class="sub">Empat langkah, semua lewat WhatsApp.</p>
+<div class="grid">
+<div class="card"><div class="num">1</div><h3>Pilih paket</h3><p style="margin:0">Isi formulir dan kirim ke WhatsApp.</p></div>
+<div class="card"><div class="num">2</div><h3>Kirim mentahan</h3><p style="margin:0">Lewat link Google Drive.</p></div>
+<div class="card"><div class="num">3</div><h3>Cek versi watermark</h3><p style="margin:0">Minta revisi kalau ada yang kurang.</p></div>
+<div class="card"><div class="num">4</div><h3>Bayar, terima hasil</h3><p style="margin:0">File tanpa watermark dikirim setelah transfer.</p></div>
+</div>
+</section>
+
+<section id="order">
+<h2>Formulir pesanan</h2>
+<p class="sub">Pilih paket, isi data, lalu kirim ke WhatsApp.</p>
+<div class="card">
+<div class="seg" id="seg">
+<button type="button" data-sel="p1">1 Video<small>Rp 35.000</small></button>
+<button type="button" data-sel="p4">4 Video<small>Rp 130.000</small></button>
+<button type="button" data-sel="p8">8 Video<small>Rp 250.000</small></button>
+<button type="button" data-sel="custom">Custom<small>hitung otomatis</small></button>
+</div>
+
+<div id="customBox" hidden>
+<label for="f-qty">Jumlah video (1-100)</label>
+<input id="f-qty" type="number" min="1" max="100" value="12" inputmode="numeric">
+<div class="row" style="margin-top:8px">
+<button type="button" class="btn ghost sm" data-q="5">5</button><button type="button" class="btn ghost sm" data-q="10">10</button><button type="button" class="btn ghost sm" data-q="12">12 (diskon)</button><button type="button" class="btn ghost sm" data-q="20">20</button>
+</div>
+</div>
+
+<div class="sum" id="sum"></div>
+
+<div class="fgrid">
+<div><label for="f-name">Nama lengkap *</label><input id="f-name" autocomplete="name" placeholder="Nama kamu"></div>
+<div><label for="f-phone">No. HP / WhatsApp *</label><input id="f-phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="081234567890"></div>
+<div><label for="f-email">Email (opsional)</label><input id="f-email" type="email" autocomplete="email" placeholder="nama@email.com"></div>
+<div><label for="f-biz">Nama dan jenis usaha *</label><input id="f-biz" placeholder="Barber Maju, barbershop"></div>
+<div class="full"><label for="f-ig">Akun Instagram / TikTok usaha (opsional)</label><input id="f-ig" placeholder="@namausaha"></div>
+<div><label for="f-plat">Untuk platform</label><select id="f-plat"><option>Instagram Reels</option><option>TikTok</option><option>YouTube Shorts</option><option>Semua platform</option></select></div>
+<div><label for="f-dur">Durasi hasil</label><select id="f-dur"><option value="15">15 detik</option><option value="30">30 detik</option><option value="60" id="opt60" hidden disabled>60 detik (+Rp 10.000 per video)</option></select></div>
+<div><label for="f-speed">Kecepatan</label><select id="f-speed"><option value="0">Standar</option><option value="10000">Ekspres (+Rp 10.000 per video)</option></select></div>
+<div><label for="f-date">Butuh selesai tanggal (opsional)</label><input id="f-date" type="date"></div>
+<div class="full"><label for="f-drive">Link Google Drive video mentahan</label><input id="f-drive" type="url" inputmode="url" placeholder="https://drive.google.com/..."><p class="hint">Upload ke Drive, klik Bagikan, ubah akses jadi Siapa saja yang memiliki link. Belum siap? Kosongkan dan kirim lewat chat nanti.</p></div>
+<div class="full"><label for="f-note">Catatan (gaya video, musik, teks yang mau dipasang)</label><textarea id="f-note" rows="3" placeholder="Gaya santai, musik ceria, tampilkan harga Rp 25.000"></textarea></div>
+</div>
+<div class="err" id="err"></div>
+<button class="btn block" id="send" type="button">Kirim lewat WhatsApp</button>
+<p class="hint" style="margin-top:8px;text-align:center">Data dikirim langsung ke WhatsApp penjual, tidak disimpan di web ini.</p>
+</div>
+<div class="card" style="margin-top:14px"><h3>Syarat mentahan</h3><p style="margin:0">Video jelas dan tidak buram, total mentahan maksimal 5 menit per video. Sertakan info yang mau ditampilkan seperti nama usaha, harga, dan alamat.</p></div>
+</section>
+
+<section id="faq">
+<h2>Pertanyaan umum</h2>
+<p class="sub">&nbsp;</p>
+<details><summary>Berapa lama pengerjaan?</summary><p>Antara 1 sampai 5 hari, tergantung paket dan tingkat kesulitan. Mau lebih cepat? Pilih Ekspres, tambah Rp 10.000 per video. Waktu dihitung setelah mentahan lengkap diterima.</p></details>
+<details><summary>Boleh minta revisi?</summary><p>Boleh, 2 kali gratis per video. Revisi berikutnya Rp 10.000 per revisi.</p></details>
+<details><summary>Bagaimana cara bayarnya?</summary><p>Kamu terima versi watermark untuk dicek dulu. Setelah cocok dan transfer, file tanpa watermark dikirim.</p></details>
+<details><summary>Video saya gelap atau kurang jelas, tetap bisa?</summary><p>Bisa dibantu rapikan, tapi hasil terbaik datang dari mentahan yang jelas. Aku kasih tips cara ambil video yang bagus.</p></details>
+<details><summary>Musik dan teks siapa yang pilih?</summary><p>Aku pilihkan sesuai gaya usahamu. Kalau punya referensi, kirim saja saat order.</p></details>
+</section>
+
+<footer><div id="foot">Dibuat oleh [nama kamu]. Hubungi lewat WhatsApp untuk order dan pertanyaan.</div></footer>
+</main>
+
+<a class="fab" data-wa="Halo, saya mau tanya jasa edit video">Chat WA</a>
+
+<script>
+// ===== GANTI BAGIAN INI =====
+var WA_NUMBER="6285710785244";   // format 62, tanpa 0 di depan
+var BRAND="EditKilat";           // nama jasa kamu
+var WORKS=[                      // isi url dengan link TikTok, IG, atau Drive
+  {title:"Hasil editan 1",url:"https://www.instagram.com/reel/Dfwzf6HhglA/"},
+  {title:"Hasil editan 2",url:"https://www.instagram.com/reel/Dfzo4NjgX2-/"},
+  {title:"Hasil editan 3",url:"https://www.instagram.com/reel/DdzEiOSzMzk/"},
+  {title:"Hasil editan 4",url:"https://www.instagram.com/reel/DVMbxSLE303/"}
+];
+// ============================
+function $(id){return document.getElementById(id)}
+function wa(t){return "https://wa.me/"+WA_NUMBER+"?text="+encodeURIComponent(t)}
+function fmt(n){return n===0?"Gratis":"Rp "+n.toString().replace(/\B(?=(\d{3})+(?!\d))/g,".")}
+document.querySelectorAll("[data-wa]").forEach(function(a){a.href=wa(a.getAttribute("data-wa"));a.target="_blank";a.rel="noopener"});
+$("brand").textContent=BRAND;document.title=BRAND+" - Jasa Edit Video Pendek";
+WORKS.forEach(function(w,i){
+  var a=document.createElement("a");a.className="work"+(w.url?" filled":"");
+  if(w.url){a.href=w.url;a.target="_blank";a.rel="noopener";a.innerHTML="<b>"+w.title+"</b><span>Lihat video</span>"}
+  else{a.innerHTML="<b>Contoh "+(i+1)+"</b><span>"+w.title+"</span><span>(segera hadir)</span>"}
+  $("works").appendChild(a);
+});
+
+var PK={p1:{name:"1 Video",n:1,price:35000,time:"1-2 hari"},p4:{name:"Paket 4 Video",n:4,price:130000,time:"3-4 hari"},p8:{name:"Paket 8 Video",n:8,price:250000,time:"sampai 5 hari"}};
+var cur="p4",summary="";
+function unit(n){return n>10?30000:n>=8?31250:n>=4?32500:35000}
+function row(l,v,c){return "<div class='srow'"+(c?" style='color:"+c+"'":"")+"><span>"+l+"</span><b>"+v+"</b></div>"}
+
+function render(){
+  var ex=parseInt($("f-speed").value,10),h="",s="",name,n,base,time,total;
+  if(cur==="custom"){
+    n=parseInt($("f-qty").value,10);if(!n||n<1)n=1;if(n>100)n=100;
+    var u=unit(n),disc=35000*n-u*n,lg=$("f-dur").value==="60"?10000*n:0;
+    base=u*n;name="Custom "+n+" video";
+    time=n<=1?"1-2 hari":n<=4?"3-4 hari":n<=8?"sampai 5 hari":"bertahap, jadwal dikonfirmasi lewat WhatsApp";
+    h+=row(n+" video x "+fmt(u),fmt(base));s+=n+" video x "+fmt(u)+" = "+fmt(base);
+    if(disc>0){h+=row(n>10?"Diskon lebih dari 10 video":"Hemat harga paket","- "+fmt(disc),"var(--ok)");s+=", hemat "+fmt(disc)}
+    if(lg){h+=row("Durasi 60 detik",fmt(lg));s+=", durasi 60 detik "+fmt(lg)}
+    total=base+lg;
+  }else{
+    var p=PK[cur];n=p.n;name=p.name;base=p.price;time=p.time;
+    h+=row(p.name,fmt(p.price));s+=p.name+" = "+fmt(p.price);total=base;
+  }
+  if(ex){var e=ex*n;h+=row("Ekspres ("+n+" video)",fmt(e));s+=", ekspres "+fmt(e);total+=e;time="sekitar setengah dari "+time}
+  h+="<div class='stot'><span>Total</span><span>"+fmt(total)+"</span></div><div class='stime'>Perkiraan selesai: "+time+"</div>";
+  s+=". TOTAL "+fmt(total);
+  $("sum").innerHTML=h;summary=s;
+  $("send").setAttribute("data-name",name);
+}
+function pick(id,go){
+  cur=id;
+  document.querySelectorAll("#seg button").forEach(function(b){b.classList.toggle("on",b.getAttribute("data-sel")===id)});
+  var c=id==="custom";$("customBox").hidden=!c;
+  $("opt60").hidden=!c;$("opt60").disabled=!c;
+  if(!c&&$("f-dur").value==="60")$("f-dur").value="15";
+  render();
+  if(go)$("order").scrollIntoView({behavior:"smooth"});
+}
+document.querySelectorAll("[data-pick]").forEach(function(b){b.addEventListener("click",function(){pick(b.getAttribute("data-pick"),true)})});
+document.querySelectorAll("[data-sel]").forEach(function(b){b.addEventListener("click",function(){pick(b.getAttribute("data-sel"),false)})});
+document.querySelectorAll("[data-q]").forEach(function(b){b.addEventListener("click",function(){$("f-qty").value=b.getAttribute("data-q");render()})});
+$("f-qty").addEventListener("input",render);$("f-speed").addEventListener("change",render);$("f-dur").addEventListener("change",render);
+function g(id){return $(id).value.trim()}
+$("send").addEventListener("click",function(){
+  var err=$("err");
+  if(!g("f-name")||!g("f-phone")||!g("f-biz")){err.textContent="Mohon isi nama, no. HP, dan nama usaha dulu.";return}
+  var d=g("f-drive");
+  if(d&&d.indexOf("http")!==0){err.textContent="Link Drive harus diawali https://";return}
+  err.textContent="";
+  var t="Halo, saya mau order jasa edit video.\n\n"+
+   "Paket: "+$("send").getAttribute("data-name")+"\n"+
+   "Rincian harga: "+summary+"\n"+
+   "Durasi: "+g("f-dur")+" detik\n"+
+   "Kecepatan: "+$("f-speed").options[$("f-speed").selectedIndex].text+"\n"+
+   "Platform: "+g("f-plat")+"\n"+
+   "Deadline: "+(g("f-date")||"-")+"\n\n"+
+   "Nama: "+g("f-name")+"\n"+
+   "No. HP: "+g("f-phone")+"\n"+
+   "Email: "+(g("f-email")||"-")+"\n"+
+   "Usaha: "+g("f-biz")+"\n"+
+   "IG/TikTok: "+(g("f-ig")||"-")+"\n"+
+   "Link Drive mentahan: "+(d||"belum ada, nanti dikirim")+"\n"+
+   "Catatan: "+(g("f-note")||"-");
+  window.open(wa(t),"_blank");
+});
+pick("p4",false);
+</script>
+</body>
+</html>
